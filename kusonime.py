@@ -29,7 +29,7 @@ def banner():
     print(C+" |  |/  /"+R+" |  \ |  |")
     print(C+" |  '  / "+R+" |   \|  |"+W+"", time.ctime())
     print(C+" |    <  "+R+" |  . `  |"+C+ " kuso"+R+"nime"+W+".com")
-    print(C+" |  .  \ "+R+" |  |\   |"+C+" github.com/"+R+"arzyware")
+    print(C+" |  .  \ "+R+" |  |\   |"+C+" github.com/"+R+"rzyware")
     print(C+" |__|\__\ "+R+"|__| \__|"+W+"")
     print("")
 
