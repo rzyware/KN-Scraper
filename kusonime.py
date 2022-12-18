@@ -47,7 +47,7 @@ while cka:
             Judul = i.ul.div.div.div.find('a',title=True)
             link = i.ul.div.div.div.find('a',href=True)
 
-        linx = link['href']
+        linx = link['href'] 
 
         resp = r.get(linx).text
         psoup = BeautifulSoup(resp, "html.parser")
@@ -74,8 +74,9 @@ while cka:
     except r.Timeout as e:
         print(O+" Timeout! "+W)
         wait()
-    except IndexError:
-        wait()
     except AttributeError:
         print(R+" Tidak Ditemukan! "+W )
         wait()
+    except KeyboardInterrupt:
+        print("")
+        exit()
